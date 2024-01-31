@@ -3,9 +3,6 @@ import java.util.Scanner;
 public class GameField {
     public static char[][] board;
     public static int size = 3;
-    char player1 = 'X';
-    char player2 = '0';
-
         public static void initBoard () {
             board = new char[size][size];
             for (int i = 0; i < size; i++) {
