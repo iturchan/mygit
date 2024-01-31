@@ -22,7 +22,7 @@ public class GameStart {
             return false;
         }
     }
-    public static void main(String[] args) {
+    public static void main() {
         char player1 = 'X';
         char player2 = '0';
         Scanner sc = new Scanner(System.in);
